@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Описание страницы">
+    <title>Главная страницу</title>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <section class="mobile-menu">
+        <div class="mobile-menu__wrapper">
+            <button class="mobile-menu__close"><img class="mobile-menu__close-icon" alt="Закрыть" src="./images/mobile-menu-close.svg"></button>
+            <nav class="mobile-menu__link-items">
+                <a class="mobile-menu__link-item" href="./o-centre.html">
+                    <span class="mobile-menu__link-item-text">О центре</span>
+                    <img class="mobile-menu__link-arrow" alt="стрелочка" src="./images/mobile-menu-arrow.svg">
+                </a>
+                <a class="mobile-menu__link-item" href="./uslugi.html">
+                    <span class="mobile-menu__link-item-text">Услуги</span>
+                    <img class="mobile-menu__link-arrow" alt="стрелочка" src="./images/mobile-menu-arrow.svg">
+                </a>
+                <a class="mobile-menu__link-item" href="./specialisti.html">
+                    <span class="mobile-menu__link-item-text">Специалисты</span>
+                    <img class="mobile-menu__link-arrow" alt="стрелочка" src="./images/mobile-menu-arrow.svg">
+                </a>
+                <a class="mobile-menu__link-item" href="./oborudovanie.html">
+                    <span class="mobile-menu__link-item-text">Оборудование</span>
+                    <img class="mobile-menu__link-arrow" alt="стрелочка" src="./images/mobile-menu-arrow.svg">
+                </a>
+                <a class="mobile-menu__link-item" href="./preparati.html">
+                    <span class="mobile-menu__link-item-text">Препараты</span>
+                    <img class="mobile-menu__link-arrow" alt="стрелочка" src="./images/mobile-menu-arrow.svg">
+                </a>
+                <a class="mobile-menu__link-item" href="./contacts.html">
+                    <span class="mobile-menu__link-item-text">Контакты</span>
+                    <img class="mobile-menu__link-arrow" alt="стрелочка" src="./images/mobile-menu-arrow.svg">
+                </a>
+                <div class="mobile-menu__link-item-more">
+                    <p class="mobile-menu__link-item">
+                        <span class="mobile-menu__link-item-text">Ещё</span>
+                        <img class="mobile-menu__link-arrow" alt="стрелочка" src="./images/mobile-menu-arrow.svg">
+                    </p>
+                    <div class="mobile-menu__submenu">
+                        <a class="mobile-menu__link-item-text" href="./otzivi.html">Отзывы</a>
+                        <a class="mobile-menu__link-item-text" href="./nashi-raboti.html">Наши работы</a>
+                        <a class="mobile-menu__link-item-text" href="./price.html">Прайс</a>
+                        <a class="mobile-menu__link-item-text" href="./documentaciya.html">Документация</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="mobile-menu__line"></div>
+            <address class="mobile-menu__contacts">
+                <div class="mobile-menu__contacts-item">
+                    <img class="mobile-menu__address-icon" src="./images/address-icon.svg" alt="Локация">
+                    <div class="mobile-menu__address-text-wrapper">
+                        <h6 class="mobile-menu__address-title">Где мы находимся</h6>
+                        <p class="mobile-menu__address-text">Ставрополь, ул. Тухачевского, 30/11, помещение 2</p>
+                    </div>
+                </div>
+                <div class="mobile-menu__contacts-item">
+                    <img class="mobile-menu__address-icon" src="./images/phone-icon.svg" alt="Телефон">
+                    <div class="mobile-menu__address-text-wrapper">
+                        <h6 class="mobile-menu__address-title">Номер телефона</h6>
+                        <a class="mobile-menu__address-text" href="tel:+79887063966">+7 (988) 706-39-66</a>
+                    </div>
+                </div>
+            </address>
+            <div class="mobile-menu__buttons">
+                <a class="mobile-menu__button mobile-menu__button_colored" href="./"><p class="mobile-menu__button-text">Онлайн запись</p></a>
+                <a class="mobile-menu__button" href="./akcii.html"><p class="mobile-menu__button-text">Акции</p></a>
+            </div>
+            <div class="mobile-menu__social">
+                <a href="./" class="mobile-menu__social-item">
+                    <img class="mobile-menu__social-item-icon" src="./images/instagram-icon.svg" alt="Instagram">
+                </a>
+                <a href="./" class="mobile-menu__social-item">
+                    <img class="mobile-menu__social-item-icon" src="./images/vk-icon.svg" alt="ВКонтакте">
+                </a>
+                <a href="./" class="mobile-menu__social-item">
+                    <img class="mobile-menu__social-item-icon" src="./images/whatsapp-icon.svg" alt="WhatsApp">
+                </a>
+            </div>
+        </div>
+    </section>
+    <header class="header main-header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__top-wrapper">
+                    <a href="./"><img class="header__logo" src="./images/logo.svg" alt="Логотип Бьюти Лайф"></a>
+                    <address class="header__address">
+                        <img class="header__address-icon" src="./images/address-icon.svg" alt="Локация">
+                        <div class="header__address-text-wrapper">
+                            <h6 class="header__address-title">Где мы находимся</h6>
+                            <p class="header__address-text">Ставрополь, ул. Тухачевского, 30/11, помещение 2</p>
+                        </div>
+                    </address>
+                    <address class="header__address">
+                        <img class="header__address-icon" src="./images/phone-icon.svg" alt="Телефон">
+                        <div class="header__address-text-wrapper">
+                            <h6 class="header__address-title">Номер телефона</h6>
+                            <a class="header__address-text" href="tel:+79887063966">+7 (988) 706-39-66</a>
+                        </div>
+                    </address>
+                    <div class="header__top-buttons">
+                        <a class="header__top-button header__top-button_colored" href="./"><p class="header__top-button-text">Онлайн запись</p></a>
+                        <a class="header__top-button" href="./akcii.html"><p class="header__top-button-text">Акции</p></a>
+                    </div>
+                </div>
+
+                <div class="header__line"></div>
+                
+                <div class="header__bottom-wrapper">
+                    <nav class="header__buttons">
+                        <a class="header__button" href="./o-centre.html"><span class="header__button-text">О центре</span></a>
+                        <a class="header__button" href="./uslugi.html"><span class="header__button-text">Услуги</span></a>
+                        <a class="header__button" href="./specialisti.html"><span class="header__button-text">Специалисты</span></a>
+                        <a class="header__button" href="./oborudovanie.html"><span class="header__button-text">Оборудование</span></a>
+                        <a class="header__button" href="./preparati.html"><span class="header__button-text">Препараты</span></a>
+                        <a class="header__button" href="./contacts.html"><span class="header__button-text">Контакты</span></a>
+                        <div class="header__button" href="#">
+                            <p class="header__button-text header__button-text_more">
+                                Еще
+                                <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L4 4L7 1" stroke="url(#paint0_linear_68_105)" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <defs>
+                                    <lineargradient id="paint0_linear_68_105" x1="1" y1="2.5" x2="7" y2="2.5" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#434F52"/>
+                                    <stop offset="1" stop-color="#717577"/>
+                                    </lineargradient>
+                                    </defs>
+                                </svg>
+                            </p>
+                           <div class="header__submenu-wrapper">
+                                <div class="header__submenu">
+                                    <a class="header__submenu-item" href="./otzivi.html"><span  class="header__submenu-item-text">Отзывы</span></a>
+                                    <a class="header__submenu-item" href="./nashi-raboti.html"><span  class="header__submenu-item-text">Наши работы</span></a>
+                                    <a class="header__submenu-item" href="./price.html"><span  class="header__submenu-item-text">Прайс</span></a>
+                                    <a class="header__submenu-item" href="./documentaciya.html"><span  class="header__submenu-item-text">Документация</span></a>
+                                </div>
+                           </div>
+                        </div>
+                    </nav>
+                    <div class="header__social">
+                        <a href="./" class="header__social-item">
+                            <img class="header__social-item-icon" src="./images/instagram-icon.svg" alt="Instagram">
+                        </a>
+                        <a href="./" class="header__social-item">
+                            <img class="header__social-item-icon" src="./images/vk-icon.svg" alt="ВКонтакте">
+                        </a>
+                        <a href="./" class="header__social-item">
+                            <img class="header__social-item-icon" src="./images/whatsapp-icon.svg" alt="WhatsApp">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="header__mobile-wrapper">
+                <a href="./"><img class="header__logo" src="./images/logo.svg" alt="Логотип Бьюти Лайф"></a>
+                <button class="header__mobile-burger"><img class="header__mobile-burger-icon" alt="Меню" src="./images/mobile-menu-burger.svg"></button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="main-banner">
+            <div class="container">
+                <div class="main-banner__wrapper">
+                    <img class="main-banner__bg" alt="Девушке выполняют процедуру" src="./images/main-banner-bg.jpg">
+                    <div class="main-banner__content">
+                        <h2 class="main-banner__title">Ваш идеальный облик в наших руках</h2>
+                        <p class="main-banner__description">Помогаем выглядеть молодо и красиво</p>
+                        <a class="main-banner__button" href="#">Записаться</a>
+                    </div>
+                    <img class="main-banner__star main-banner__star_1" alt="звезда" src="./images/main-banner-star.svg"> 
+                    <img class="main-banner__star main-banner__star_2" alt="звезда" src="./images/main-banner-star.svg"> 
+                    <img class="main-banner__star main-banner__star_3" alt="звезда" src="./images/main-banner-star.svg"> 
+                </div>  
+            </div>
+        </section>
+        <section class="main-advantages">
+            <div class="container">
+                <div class="main-advantages__wrapper">
+                    <div class="main-advantages__item">
+                        <img class="main-advantages__bg" alt="Фоновый рисунок" src="./images/main-advantages-bg-1.svg">
+                        <div class="main-advantages__item-content">
+                            <img class="main-advantages__item-img" alt="Девушке выполняют процедуры" src="./images/main-advantages-img-1.png">
+                            <p class="main-advantages__item-text">Специалисты <span class="main-advantages__item-text main-advantages__item-text_bold">высокого уровня</span></p>
+                        </div>
+                    </div>
+                    <div class="main-advantages__item">
+                        <img class="main-advantages__bg" alt="Фоновый рисунок" src="./images/main-advantages-bg-2.svg">
+                        <div class="main-advantages__item-content">
+                            <img class="main-advantages__item-img" alt="Оборудование" src="./images/main-advantages-img-2.png">
+                            <p class="main-advantages__item-text"><span class="main-advantages__item-text main-advantages__item-text_bold">Современное сертифицированное</span> оборудование</p>
+                        </div>
+                    </div>
+                    <div class="main-advantages__item">
+                        <img class="main-advantages__bg" alt="Фоновый рисунок" src="./images/main-advantages-bg-3.svg">
+                        <div class="main-advantages__item-content">
+                            <img class="main-advantages__item-img" alt="Препараты" src="./images/main-advantages-img-3.png">
+                            <p class="main-advantages__item-text">Препараты <span class="main-advantages__item-text main-advantages__item-text_bold">премиум класса</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-about">
+            <div class="container">
+                <div class="main-about__wrapper">
+                    <div class="main-about__content-wrapper">
+                        <h1 class="main-about__title">Бьюти Лайф — <br><span class="main-about__title main-about__title_bold">современный центр косметологии</span></h1>
+                        <p class="main-about__text">
+                            В Центре косметологии Бьюти Лайф, <span class="main-about__text main-about__text_bold">вы найдете все, что вам нужно для достижения идеального облика.</span> Нашим специалистам доверяют тысячи клиентов, которые ценят нашу профессиональную работу и индивидуальный подход к каждому клиенту.
+                            <br><br>
+                            <span class="main-about__text main-about__text_bold">Мы предлагаем широкий спектр услуг, от химической пилинга до лазерной коррекции и микропигментации.</span> Вам обеспечен комфорт, приватность и результаты, которые вы ожидаете.
+                        </p>
+                        <div class="main-about__director-card">
+                            <img class="main-about__director-card-img" alt="Микаелян Екатерина Васильевна" src="./images/about-director-photo.jpg">
+                            <div class="main-about__director-card-content">
+                                <p class="main-about__director-card-position">Директор центра:</p>
+                                <p class="main-about__director-card-name">Микаелян Екатерина Васильевна</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-about__video-wrapper">
+                        <button class="main-about__play">
+                            <svg class="main-about__play-icon" width="86" height="86" viewBox="0 0 86 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="43" cy="43" r="43" fill="white"/>
+                                <path d="M51.5858 41.5858L41.4142 31.4142C40.1543 30.1543 38 31.0466 38 32.8284V53.1716C38 54.9534 40.1543 55.8457 41.4142 54.5858L51.5858 44.4142C52.3668 43.6332 52.3668 42.3668 51.5858 41.5858Z" fill="url(#paint0_linear_68_41)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_68_41" x1="38" y1="28" x2="53.922" y2="28.4976" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#DBA237"/>
+                                <stop offset="0.505" stop-color="#EAC279"/>
+                                <stop offset="1" stop-color="#DBA237"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="certificate">
+            <div class="certificate__bg">
+                <div class="container">
+                   <div class="certificate__wrapper">
+                        <h2 class="certificate__title"><span class="certificate__title certificate__title_bold" >Подарочные</span> сертификаты</h2>
+                        <div class="splide certificate__splide" id="certificate-slider" role="group" aria-label="Splide Basic HTML Example">
+                            <div class="splide__arrows certificate__arrows">
+                                <button class="splide__arrow splide__arrow--prev certificate__arrow certificate__arrow_prev">
+                                    <svg width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10.2929 10.2929L0.871478 0.871478C0.711049 0.711049 0.449707 0.899413 0.551171 1.10234L5.27639 10.5528C5.41716 10.8343 5.41716 11.1657 5.27639 11.4472L0.551171 20.8977C0.449707 21.1006 0.711049 21.2889 0.871478 21.1285L10.2929 11.7071C10.6834 11.3166 10.6834 10.6834 10.2929 10.2929Z" fill="url(#paint0_radial_68_469)"/>
+                                        <defs>
+                                        <radialGradient id="paint0_radial_68_469" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(5.5 11) rotate(63.4349) scale(12.2984 12.5285)">
+                                        <stop offset="0.435" stop-color="#F1D7A5"/>
+                                        <stop offset="1" stop-color="#E4BF78"/>
+                                        </radialGradient>
+                                        </defs>
+                                    </svg>
+                                        
+                                </button>
+                                <button class="splide__arrow splide__arrow--next certificate__arrow certificate__arrow_next">
+                                    <svg width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10.2929 10.2929L0.871478 0.871478C0.711049 0.711049 0.449707 0.899413 0.551171 1.10234L5.27639 10.5528C5.41716 10.8343 5.41716 11.1657 5.27639 11.4472L0.551171 20.8977C0.449707 21.1006 0.711049 21.2889 0.871478 21.1285L10.2929 11.7071C10.6834 11.3166 10.6834 10.6834 10.2929 10.2929Z" fill="url(#paint0_radial_68_469)"/>
+                                        <defs>
+                                        <radialGradient id="paint0_radial_68_469" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(5.5 11) rotate(63.4349) scale(12.2984 12.5285)">
+                                        <stop offset="0.435" stop-color="#F1D7A5"/>
+                                        <stop offset="1" stop-color="#E4BF78"/>
+                                        </radialGradient>
+                                        </defs>
+                                    </svg>
+                                        
+                                </button>
+                            </div>
+                            <div class="splide__track certificate__track">
+                                <ul class="splide__list certificate__list">
+                                    <li class="splide__slide certificate__slide">
+                                        <img class="certificate__slide-img" alt="Сертификат" src="./images/main-certificate-10000.svg">
+                                    </li>
+                                    <li class="splide__slide certificate__slide">
+                                        <img class="certificate__slide-img" alt="Сертификат" src="./images/main-certificate-15000.svg">
+                                    </li>
+                                    <li class="splide__slide certificate__slide">
+                                        <img class="certificate__slide-img" alt="Сертификат" src="./images/main-certificate-25000.svg">
+                                    </li>
+                                    <li class="splide__slide certificate__slide">
+                                        <img class="certificate__slide-img" alt="Сертификат" src="./images/main-certificate-25000.svg">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <a class="certificate__button" href="#"><span class="certificate__button-text">Купить сертификат</span></a>
+                   </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="services__block-1">
+                <div class="container">
+                    <h2 class="services__title"><span class="services__title services__title_bold">Услуги предоставляемые центром</span> <br>косметологии</h2>
+                    <div class="services__rows">
+                        <div class="services__row">
+                            <h3 class="services__row-title"><span class="services__row-title services__row-title_bold">Консультация</span> специалистов</h3>
+    
+                            <div class="splide services__splide" role="group" aria-label="Splide Basic HTML Example">
+                                <div class="splide__arrows">
+                                    <button class="splide__arrow splide__arrow--prev services__arrow services__arrow_prev">
+                                        <svg width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.2929 10.2929L0.871478 0.871478C0.711049 0.711049 0.449707 0.899413 0.551171 1.10234L5.27639 10.5528C5.41716 10.8343 5.41716 11.1657 5.27639 11.4472L0.551171 20.8977C0.449707 21.1006 0.711049 21.2889 0.871478 21.1285L10.2929 11.7071C10.6834 11.3166 10.6834 10.6834 10.2929 10.2929Z" fill="url(#paint0_radial_68_469)"/>
+                                            <defs>
+                                            <radialGradient id="paint0_radial_68_469" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(5.5 11) rotate(63.4349) scale(12.2984 12.5285)">
+                                            <stop offset="0.435" stop-color="#F1D7A5"/>
+                                            <stop offset="1" stop-color="#E4BF78"/>
+                                            </radialGradient>
+                                            </defs>
+                                        </svg>
+                                            
+                                    </button>
+                                    <button class="splide__arrow splide__arrow--next services__arrow services__arrow_next">
+                                        <svg width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.2929 10.2929L0.871478 0.871478C0.711049 0.711049 0.449707 0.899413 0.551171 1.10234L5.27639 10.5528C5.41716 10.8343 5.41716 11.1657 5.27639 11.4472L0.551171 20.8977C0.449707 21.1006 0.711049 21.2889 0.871478 21.1285L10.2929 11.7071C10.6834 11.3166 10.6834 10.6834 10.2929 10.2929Z" fill="url(#paint0_radial_68_469)"/>
+                                            <defs>
+                                            <radialGradient id="paint0_radial_68_469" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(5.5 11) rotate(63.4349) scale(12.2984 12.5285)">
+                                            <stop offset="0.435" stop-color="#F1D7A5"/>
+                                            <stop offset="1" stop-color="#E4BF78"/>
+                                            </radialGradient>
+                                            </defs>
+                                        </svg>
+                                            
+                                    </button>
+                                </div>
+                                <div class="splide__track">
+                                    <ul class="splide__list">
+                                        <li class="splide__slide services__slide">
+                                            <a href="#" class="services__card">
+                                                <img class="services__card-img" alt="Прием врача" src="./images/consultation-dermatovenerologist.jpg">
+                                                <h4 class="services__card-title">Консультация<br><span class="services__card-title services__card-title_bold">дерматовенеролога</span></h4>
+        
+                                            </a>
+                                        </li>
+                                        <li class="splide__slide services__slide">
+                                            <a href="#" class="services__card">
+                                                <img class="services__card-img" alt="Прием врача" src="./images/consultation-cosmetologist.jpg">
+                                                <h4 class="services__card-title">Консультация<br><span class="services__card-title services__card-title_bold">косметолога</span></h4>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+    
+                            <div class="services__line"></div>
+    
+                        </div>
+                        <div class="services__row">
+                            <h3 class="services__row-title"><span class="services__row-title services__row-title_bold">Инъекционная</span> косметология</h3>
+    
+                            <div class="splide services__splide" role="group" aria-label="Splide Basic HTML Example">
+                                <div class="splide__arrows">
+                                    <button class="splide__arrow splide__arrow--prev services__arrow services__arrow_prev">
+                                        <svg width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.2929 10.2929L0.871478 0.871478C0.711049 0.711049 0.449707 0.899413 0.551171 1.10234L5.27639 10.5528C5.41716 10.8343 5.41716 11.1657 5.27639 11.4472L0.551171 20.8977C0.449707 21.1006 0.711049 21.2889 0.871478 21.1285L10.2929 11.7071C10.6834 11.3166 10.6834 10.6834 10.2929 10.2929Z" fill="url(#paint0_radial_68_469)"/>
+                                            <defs>
+                                            <radialGradient id="paint0_radial_68_469" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(5.5 11) rotate(63.4349) scale(12.2984 12.5285)">
+                                            <stop offset="0.435" stop-color="#F1D7A5"/>
+                                            <stop offset="1" stop-color="#E4BF78"/>
+                                            </radialGradient>
+                                            </defs>
+                                        </svg>
+                                            
+                                    </button>
+                                    <button class="splide__arrow splide__arrow--next services__arrow services__arrow_next">
+                                        <svg width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.2929 10.2929L0.871478 0.871478C0.711049 0.711049 0.449707 0.899413 0.551171 1.10234L5.27639 10.5528C5.41716 10.8343 5.41716 11.1657 5.27639 11.4472L0.551171 20.8977C0.449707 21.1006 0.711049 21.2889 0.871478 21.1285L10.2929 11.7071C10.6834 11.3166 10.6834 10.6834 10.2929 10.2929Z" fill="url(#paint0_radial_68_469)"/>
+                                            <defs>
+                                            <radialGradient id="paint0_radial_68_469" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(5.5 11) rotate(63.4349) scale(12.2984 12.5285)">
+                                            <stop offset="0.435" stop-color="#F1D7A5"/>
+                                            <stop offset="1" stop-color="#E4BF78"/>
+                                            </radialGradient>
+                                            </defs>
+                                        </svg>
+                                            
+                                    </button>
+                                </div>
+                                <div class="splide__track">
+                                    <ul class="splide__list">
+                                        <li class="splide__slide services__slide">
+                                            <a href="#" class="services__card">
+                                                <img class="services__card-img" alt="Прием врача" src="./images/botulinum-therapy.jpg">
+                                                <h4 class="services__card-title services__card-title_bold">Ботулинотерапия</h4>
+                                            </a>
+                                        </li>
+                                        <li class="splide__slide services__slide">
+                                            <a href="#" class="services__card">
+                                                <img class="services__card-img" alt="Прием врача" src="./images/biorevitalization.jpg">
+                                                <h4 class="services__card-title services__card-title_bold">Биоревитализация</h4>
+                                                <p class="services__card-description">Уколы гиалуроновой кислоты</p>
+                                            </a>
+                                        </li>
+                                        <li class="splide__slide services__slide">
+                                            <a href="#" class="services__card">
+                                                <img class="services__card-img" alt="Прием врача" src="./images/mesotherapy.jpg">
+                                                <h4 class="services__card-title services__card-title_bold">Мезотерапия</h4>
+                                            </a>
+                                        </li>
+                                        <li class="splide__slide services__slide">
+                                            <a href="#" class="services__card">
+                                                <img class="services__card-img" alt="Прием врача" src="./images/contour_plastic.jpg">
+                                                <h4 class="services__card-title services__card-title_bold">Контурная пластика</h4>
+                                                <p class="services__card-description">Филлеры и волюмайзеры</p>
+                                            </a>
+                                        </li>
+    
+                                        <li class="splide__slide services__slide">
+                                            <a href="#" class="services__card">
+                                                <img class="services__card-img" alt="Прием врача" src="./images/consultation-cosmetologist.jpg">
+                                                <h4 class="services__card-title services__card-title_bold">Ещё карточка</h4>
+                                                <p class="services__card-description">описание карточки</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+    
+                            <div class="services__line"></div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="services__block-2">
+                <div class="container">
+                    <div class="services__rows">
+                        <div class="services__row">
+                            <h3 class="services__row-title"><span class="services__row-title services__row-title_bold">Аппаратная</span> косметология</h3>
+    
+                            <div class="splide services__splide" role="group" aria-label="Splide Basic HTML Example">
+                                <div class="splide__arrows">
+                                    <button class="splide__arrow splide__arrow--prev services__arrow services__arrow_prev">
+                                        <svg width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.2929 10.2929L0.871478 0.871478C0.711049 0.711049 0.449707 0.899413 0.551171 1.10234L5.27639 10.5528C5.41716 10.8343 5.41716 11.1657 5.27639 11.4472L0.551171 20.8977C0.449707 21.1006 0.711049 21.2889 0.871478 21.1285L10.2929 11.7071C10.6834 11.3166 10.6834 10.6834 10.2929 10.2929Z" fill="url(#paint0_radial_68_469)"/>
+                                            <defs>
+                                            <radialGradient id="paint0_radial_68_469" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(5.5 11) rotate(63.4349) scale(12.2984 12.5285)">
+                                            <stop offset="0.435" stop-color="#F1D7A5"/>
+                                            <stop offset="1" stop-color="#E4BF78"/>
+                                            </radialGradient>
+                                            </defs>
+                                        </svg>
+                                            
+                                    </button>
+                                    <button class="splide__arrow splide__arrow--next services__arrow services__arrow_next">
+                                        <svg width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.2929 10.2929L0.871478 0.871478C0.711049 0.711049 0.449707 0.899413 0.551171 1.10234L5.27639 10.5528C5.41716 10.8343 5.41716 11.1657 5.27639 11.4472L0.551171 20.8977C0.449707 21.1006 0.711049 21.2889 0.871478 21.1285L10.2929 11.7071C10.6834 11.3166 10.6834 10.6834 10.2929 10.2929Z" fill="url(#paint0_radial_68_469)"/>
+                                            <defs>
+                                            <radialGradient id="paint0_radial_68_469" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(5.5 11) rotate(63.4349) scale(12.2984 12.5285)">
+                                            <stop offset="0.435" stop-color="#F1D7A5"/>
+                                            <stop offset="1" stop-color="#E4BF78"/>
+                                            </radialGradient>
+                                            </defs>
+                                        </svg>
+                                            
+                                    </button>
+                                </div>
+                                <div class="splide__track">
+                                    <ul class="splide__list">
+                                        <li class="splide__slide services__slide">
+                                            <a href="#" class="services__card">
+                                                <img class="services__card-img" alt="Прием врача" src="./images/plasmatherapy.jpg">
+                                                <h4 class="services__card-title services__card-title_bold">Плазмотерапия</h4>
+                                                <p class="services__card-description">Плазмолифтинг</p>
+                                            </a>
+                                        </li>
+                                        <li class="splide__slide services__slide">
+                                            <a href="#" class="services__card">
+                                                <img class="services__card-img" alt="Прием врача" src="./images/microcurrent-theropy.jpg">
+                                                <h4 class="services__card-title services__card-title_bold">Микротоковая терапия</h4>
+                                            </a>
+                                        </li>
+                                        <li class="splide__slide services__slide">
+                                            <a href="#" class="services__card">
+                                                <img class="services__card-img" alt="Прием врача" src="./images/removal-of-tumors.jpg">
+                                                <h4 class="services__card-title services__card-title_bold">Удаление новообразований</h4>
+                                            </a>
+                                        </li>
+                                        <li class="splide__slide services__slide">
+                                            <a href="#" class="services__card">
+                                                <img class="services__card-img" alt="Прием врача" src="./images/remove-stars.jpg">
+                                                <h4 class="services__card-title services__card-title_bold">Удаление сосудистых звёздочек на лице</h4>
+                                            </a>
+                                        </li>
+                                        <li class="splide__slide services__slide">
+                                            <a href="#" class="services__card">
+                                                <img class="services__card-img" alt="Прием врача" src="./images/consultation-cosmetologist.jpg">
+                                                <h4 class="services__card-title services__card-title_bold">Ещё карточка</h4>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+    
+                            <div class="services__line"></div>
+    
+                        </div>
+                        <div class="services__row">
+                            <h3 class="services__row-title"><span class="services__row-title services__row-title_bold">Эстетическая</span> косметология</h3>
+    
+                            <div class="splide services__splide" role="group" aria-label="Splide Basic HTML Example">
+                                <div class="splide__arrows">
+                                    <button class="splide__arrow splide__arrow--prev services__arrow services__arrow_prev">
+                                        <svg width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.2929 10.2929L0.871478 0.871478C0.711049 0.711049 0.449707 0.899413 0.551171 1.10234L5.27639 10.5528C5.41716 10.8343 5.41716 11.1657 5.27639 11.4472L0.551171 20.8977C0.449707 21.1006 0.711049 21.2889 0.871478 21.1285L10.2929 11.7071C10.6834 11.3166 10.6834 10.6834 10.2929 10.2929Z" fill="url(#paint0_radial_68_469)"/>
+                                            <defs>
+                                            <radialGradient id="paint0_radial_68_469" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(5.5 11) rotate(63.4349) scale(12.2984 12.5285)">
+                                            <stop offset="0.435" stop-color="#F1D7A5"/>
+                                            <stop offset="1" stop-color="#E4BF78"/>
+                                            </radialGradient>
+                                            </defs>
+                                        </svg>
+                                            
+                                    </button>
+                                    <button class="splide__arrow splide__arrow--next services__arrow services__arrow_next">
+                                        <svg width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.2929 10.2929L0.871478 0.871478C0.711049 0.711049 0.449707 0.899413 0.551171 1.10234L5.27639 10.5528C5.41716 10.8343 5.41716 11.1657 5.27639 11.4472L0.551171 20.8977C0.449707 21.1006 0.711049 21.2889 0.871478 21.1285L10.2929 11.7071C10.6834 11.3166 10.6834 10.6834 10.2929 10.2929Z" fill="url(#paint0_radial_68_469)"/>
+                                            <defs>
+                                            <radialGradient id="paint0_radial_68_469" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(5.5 11) rotate(63.4349) scale(12.2984 12.5285)">
+                                            <stop offset="0.435" stop-color="#F1D7A5"/>
+                                            <stop offset="1" stop-color="#E4BF78"/>
+                                            </radialGradient>
+                                            </defs>
+                                        </svg>
+                                            
+                                    </button>
+                                </div>
+                                <div class="splide__track">
+                                    <ul class="splide__list">
+                                        <li class="splide__slide services__slide">
+                                            <a href="#" class="services__card">
+                                                <img class="services__card-img" alt="Прием врача" src="./images/Comprehensive-facial-cleansing.jpg">
+                                                <h4 class="services__card-title services__card-title_bold">Комплексная чистка лица</h4>
+                                            </a>
+                                        </li>
+                                        <li class="splide__slide services__slide">
+                                            <a href="#" class="services__card">
+                                                <img class="services__card-img" alt="Прием врача" src="./images/facial massage.jpg">
+                                                <h4 class="services__card-title services__card-title_bold">Массаж лица</h4>
+                                            </a>
+                                        </li>
+                                        <li class="splide__slide services__slide">
+                                            <a href="#" class="services__card">
+                                                <img class="services__card-img" alt="Прием врача" src="./images/facial-peelings.jpg">
+                                                <h4 class="services__card-title services__card-title_bold">Пиллинги лица</h4>
+                                            </a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+    
+                            <div class="services__line"></div>
+    
+                        </div>
+                        <div class="services__row">
+                            <h3 class="services__row-title"><span class="services__row-title services__row-title_bold">Массажные</span> процедуры</h3>
+    
+                            <div class="splide services__splide" role="group" aria-label="Splide Basic HTML Example">
+                                <div class="splide__arrows">
+                                    <button class="splide__arrow splide__arrow--prev services__arrow services__arrow_prev">
+                                        <svg width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.2929 10.2929L0.871478 0.871478C0.711049 0.711049 0.449707 0.899413 0.551171 1.10234L5.27639 10.5528C5.41716 10.8343 5.41716 11.1657 5.27639 11.4472L0.551171 20.8977C0.449707 21.1006 0.711049 21.2889 0.871478 21.1285L10.2929 11.7071C10.6834 11.3166 10.6834 10.6834 10.2929 10.2929Z" fill="url(#paint0_radial_68_469)"/>
+                                            <defs>
+                                            <radialGradient id="paint0_radial_68_469" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(5.5 11) rotate(63.4349) scale(12.2984 12.5285)">
+                                            <stop offset="0.435" stop-color="#F1D7A5"/>
+                                            <stop offset="1" stop-color="#E4BF78"/>
+                                            </radialGradient>
+                                            </defs>
+                                        </svg>
+                                            
+                                    </button>
+                                    <button class="splide__arrow splide__arrow--next services__arrow services__arrow_next">
+                                        <svg width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.2929 10.2929L0.871478 0.871478C0.711049 0.711049 0.449707 0.899413 0.551171 1.10234L5.27639 10.5528C5.41716 10.8343 5.41716 11.1657 5.27639 11.4472L0.551171 20.8977C0.449707 21.1006 0.711049 21.2889 0.871478 21.1285L10.2929 11.7071C10.6834 11.3166 10.6834 10.6834 10.2929 10.2929Z" fill="url(#paint0_radial_68_469)"/>
+                                            <defs>
+                                            <radialGradient id="paint0_radial_68_469" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(5.5 11) rotate(63.4349) scale(12.2984 12.5285)">
+                                            <stop offset="0.435" stop-color="#F1D7A5"/>
+                                            <stop offset="1" stop-color="#E4BF78"/>
+                                            </radialGradient>
+                                            </defs>
+                                        </svg>
+                                            
+                                    </button>
+                                </div>
+                                <div class="splide__track">
+                                    <ul class="splide__list">
+                                        <li class="splide__slide services__slide">
+                                            <a href="#" class="services__card">
+                                                <img class="services__card-img" alt="Прием врача" src="./images/anti-cellulite-massage.jpg">
+                                                <h4 class="services__card-title services__card-title_bold">Антицеллюлитный</h4>
+                                                <p class="services__card-description">&nbsp;</p>
+                                            </a>
+                                        </li>
+                                        <li class="splide__slide services__slide">
+                                            <a href="#" class="services__card">
+                                                <img class="services__card-img" alt="Прием врача" src="./images/lymphatic-drainage-massage.jpg">
+                                                <h4 class="services__card-title services__card-title_bold">Лимфодренажный</h4>
+                                            </a>
+                                        </li>
+                                        <li class="splide__slide services__slide">
+                                            <a href="#" class="services__card">
+                                                <img class="services__card-img" alt="Прием врача" src="./images/therapeutic-massage.jpg">
+                                                <h4 class="services__card-title services__card-title_bold">Лечебный</h4>
+                                            </a>
+                                        </li>
+                                        <li class="splide__slide services__slide">
+                                            <a href="#" class="services__card">
+                                                <img class="services__card-img" alt="Прием врача" src="./images/baby-massage.jpg">
+                                                <h4 class="services__card-title services__card-title_bold">Детский</h4>
+                                            </a>
+                                        </li>
+                                        <li class="splide__slide services__slide">
+                                            <a href="#" class="services__card">
+                                                <img class="services__card-img" alt="Прием врача" src="./images/baby-massage.jpg">
+                                                <h4 class="services__card-title services__card-title_bold">Ещё карточка</h4>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="promotions">
+            <div class="promotions__bg">
+                <div class="container">
+                    <div class="promotions__wrapper">
+                        <h2 class="promotions__title">Акции и уникальные<br>предложения</h2>
+                        <div class="promotions__cards">
+                            <div class="promotions__card">
+                                <img class="promotions__card-img" alt="акция" src="./images/promotion-placeholder.jpg">
+                                <h4 class="promotions__card-name">Название акции</h4>
+                            </div>
+                            <div class="promotions__card">
+                                <img class="promotions__card-img" alt="акция" src="./images/promotion-placeholder.jpg">
+                                <h4 class="promotions__card-name">Название акции</h4>
+                            </div>
+                            <div class="promotions__card">
+                                <img class="promotions__card-img" alt="акция" src="./images/promotion-placeholder.jpg">
+                                <h4 class="promotions__card-name">Название акции</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts">
+            <div class="container">
+                <div class="contacts__wrapper">
+                    <div class="contacts__map-wrapper">
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2919726fc5b02c721365209faf5ce776bb3bc04fdd90fa79c0a200a5c1b39c68&amp;source=constructor" width="100%" height="450px" frameborder="0"></iframe>
+                    </div>
+
+                    <div class="contacts__content">
+                        <h2 class="contacts__title">Контактная информация</h2>
+                        <address class="contacts__contacts">
+                            <div class="contacts__contacts-item">
+                                <img class="contacts__address-icon" src="./images/contacts-icon-location.svg" alt="Локация">
+                                <div class="contacts__address-text-wrapper">
+                                    <h6 class="contacts__address-title">Где мы находимся</h6>
+                                    <p class="contacts__address-text">Ставрополь, ул. Тухачевского, 30/11, помещение 2</p>
+                                </div>
+                            </div>
+                            <div class="contacts__contacts-item">
+                                <img class="contacts__address-icon" src="./images/contacts-icon-phone.svg" alt="Телефон">
+                                <div class="contacts__address-text-wrapper">
+                                    <h6 class="contacts__address-title">Номер телефона</h6>
+                                    <a class="contacts__address-text" href="tel:+79887063966">+7 (988) 706-39-66</a>
+                                </div>
+                            </div>
+                        </address>
+                        <div class="contacts__social">
+                            <a href="./" class="contacts__social-item">
+                                <img class="contacts__social-item-icon" src="./images/instagram-icon.svg" alt="Instagram">
+                            </a>
+                            <a href="./" class="contacts__social-item">
+                                <img class="contacts__social-item-icon" src="./images/vk-icon.svg" alt="ВКонтакте">
+                            </a>
+                            <a href="./" class="contacts__social-item">
+                                <img class="contacts__social-item-icon" src="./images/whatsapp-icon.svg" alt="WhatsApp">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__row-1">
+                    <a href="./"><img class="footer__logo" alt="Логотип" src="./images/footer-logo.svg"></a>
+                    <address class="footer__contacts">
+                        <div class="footer__contacts-item">
+                            <img class="footer__address-icon" src="./images/contacts-icon-location.svg" alt="Локация">
+                            <div class="footer__address-text-wrapper">
+                                <h6 class="footer__address-title">Где мы находимся</h6>
+                                <p class="footer__address-text">Ставрополь, ул. Тухачевского, 30/11, помещение 2</p>
+                            </div>
+                        </div>
+                        <div class="footer__contacts-item">
+                            <img class="footer__address-icon" src="./images/contacts-icon-phone.svg" alt="Телефон">
+                            <div class="footer__address-text-wrapper">
+                                <h6 class="footer__address-title">Номер телефона</h6>
+                                <a class="footer__address-text" href="tel:+79887063966">+7 (988) 706-39-66</a>
+                            </div>
+                        </div>
+                    </address>
+                </div>
+                <div class="footer__row-2">
+                    <nav class="footer__buttons">
+                        <a href="./o-centre.html" class="footer__button"><span class="footer__button-text">О центре</span></a>
+                        <a href="./uslugi.html" class="footer__button"><span class="footer__button-text">Услуги</span></a>
+                        <div class="footer__nav-placeholder-1"></div>
+                        <a href="./specialisti.html" class="footer__button"><span class="footer__button-text">Специалисты</span></a>
+                        <a href="./oborudovanie.html" class="footer__button"><span class="footer__button-text">Оборудование</span></a>
+                        <a href="./nashi-raboti.html" class="footer__button"><span class="footer__button-text">Наши работы</span></a>
+                        <div class="footer__nav-placeholder-2"></div>
+                        <a href="./preparati.html" class="footer__button"><span class="footer__button-text">Препараты</span></a>
+                        <a href="./otzivi.html" class="footer__button"><span class="footer__button-text">Отзывы</span></a>
+                        <a href="./price.html" class="footer__button"><span class="footer__button-text">Прайс</span></a>
+                        <a href="./documentaciya.html" class="footer__button"><span class="footer__button-text">Документация</span></a>
+                        <a href="./contacts.html" class="footer__button"><span class="footer__button-text">Контакты</span></a>
+                    </nav>
+
+                   <div class="footer__links-wrapper">
+                        <div class="footer__social">
+                            <a href="./" class="footer__social-item">
+                                <img class="footer__social-item-icon" src="./images/instagram-icon.svg" alt="Instagram">
+                            </a>
+                            <a href="./" class="footer__social-item">
+                                <img class="footer__social-item-icon" src="./images/vk-icon.svg" alt="ВКонтакте">
+                            </a>
+                            <a href="./" class="footer__social-item">
+                                <img class="footer__social-item-icon" src="./images/whatsapp-icon.svg" alt="WhatsApp">
+                            </a>
+                        </div>
+                        <div class="footer__links">
+                            <a href="#" class="footer__link">Политика конфиденциальности</a>
+                            <a href="#" class="footer__link">Пользовательское соглашение</a>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="modal-video none">
+        <div class="modal-video__wrapper">
+            <button class="modal-video__close">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L21 21" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M21 1L1 21" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                    
+            </button>
+            <video class="modal-video__video" src="./video/1.mp4" controls></video>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="./js/scripts.js"></script>
+    <script>
+        const certificateSlider = new Splide('#certificate-slider', {
+            gap: '30px',
+            perMove: 1,
+            perPage: 3,
+            pagination: false,
+            breakpoints: {
+                960: {
+                    perPage: 2,
+                    gap: '20px'
+                },
+                480: {
+                    perPage: 1
+                }
+            }
+        });
+        certificateSlider.mount();
+
+
+
+        const servicesSplideElements = document.querySelectorAll('.services__splide');
+
+        servicesSplideElements.forEach((item) => {
+            const slider = new Splide(item, {
+                gap: '30px',
+                perMove: 1,
+                perPage: 4,
+                pagination: false,
+                breakpoints: {
+                    960: {
+                        perPage: 3,
+                        gap: '20px'
+                    },
+                    860: {
+                        perPage: 2
+                    },
+                    480: {
+                        perPage: 1
+                    }
+                }
+            });
+
+            slider.mount();
+
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            setModal('.main-about__video-wrapper', '.modal-video', '.modal-video__close');
+            setMobileMenu('.header__mobile-burger', '.mobile-menu', 'open', '.mobile-menu__close');
+            showHideItem('.mobile-menu__link-item-more', '.mobile-menu__submenu', 'open');
+        });
+    </script>
+</body>
+</html>
