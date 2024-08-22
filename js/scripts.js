@@ -178,3 +178,36 @@ function setTabPrice(tabSelector, activeTabSelector, contentSelector) {
         setTabs(priceButtons, priceButtonActiveSelector, priceContent);
     });
 };
+
+
+function setFormCustomSelect(formSelector, selectSelector, selectWrapperSelector, optionSelector, submenuSelector, itemSelector) {
+    const form = document.querySelector(formSelector);
+    const selectWrapper = form.querySelector(selectWrapperSelector);    
+    const select = selectWrapper.querySelector(selectSelector);
+    const option = select.querySelector(optionSelector);
+    const submenu = form.querySelector(submenuSelector);
+    const items = submenu.querySelectorAll(itemSelector);
+
+    let lastActiveItem = items[0];
+
+    const toggleShowMenu = () => {
+        submenu.classList.toggle('none');
+    }
+
+    selectWrapper.addEventListener('click', () => {
+        toggleShowMenu();
+    });
+
+    items.forEach(item => {
+        item.addEventListener('click', (e) => {
+            e.stopPropagation();
+            lastActiveItem.classList.remove('active');
+            item.classList.add('active');
+            lastActiveItem = item;
+            
+            option.value = item.dataset.formValue;
+            option.textContent = item.dataset.formValue;
+            toggleShowMenu();
+        })
+    });
+}
